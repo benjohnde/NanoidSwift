@@ -18,7 +18,7 @@ print(nanoid.secureToken)
 
 ### Installation
 
-LogSwifty can be installed using [Carthage](https://github.com/Carthage/Carthage). After installing Carthage just add LogSwifty to your Cartfile as follows:
+Nanoid can be installed using [Carthage](https://github.com/Carthage/Carthage). After installing Carthage just add Nanoid to your Cartfile as follows:
 
 ```ruby
 github "benjohnde/NanoidSwift" ~> 0.1
