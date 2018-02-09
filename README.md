@@ -1,3 +1,5 @@
+[![CI Status](https://travis-ci.org/benjohnde/NanoidSwift.svg?branch=master)](https://travis-ci.org/benjohnde/NanoidSwift)
+
 # NanoidSwift
 
 Straight forward nanoid implementation for Swift.
