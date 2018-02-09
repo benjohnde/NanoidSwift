@@ -10,7 +10,7 @@ import Foundation
 
 public class Nanoid {
     var randomizer: RandomSource = URandom()
-    var alphabet = Alphabet.alphameric
+    var alphabet: Alphabet = .alphameric
     var length = 32
 
     var secureToken: String {
