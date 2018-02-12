@@ -14,7 +14,7 @@ public struct Alphabet {
         self.characters = Array(alphabet)
     }
 
-    func randomChar(from byte: UInt8) -> Character {
+    func character(for byte: UInt8) -> Character {
         return self.characters[Int(byte) % self.characters.count]
     }
 }

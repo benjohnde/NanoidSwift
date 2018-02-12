@@ -16,7 +16,7 @@ public class Nanoid {
     var secureToken: String {
         let randomBytes = randomizer.get(numBytes: length)
         let randomCharacters = randomBytes.map { byte -> Character in
-            return self.alphabet.randomChar(from: byte)
+            return self.alphabet.character(for: byte)
         }
         return String(randomCharacters)
     }
