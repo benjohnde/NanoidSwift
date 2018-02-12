@@ -9,9 +9,13 @@
 import Foundation
 
 public struct Alphabet {
-    let characters: [Character]
+    private let characters: [Character]
     init(_ alphabet: String) {
         self.characters = Array(alphabet)
+    }
+
+    func randomChar(from byte: UInt8) -> Character {
+        return self.characters[Int(byte) % self.characters.count]
     }
 }
 
