@@ -26,6 +26,6 @@ github "benjohnde/NanoidSwift" ~> 0.1
 
 ### Hint
 
-- Currently limited to `/dev/urandom`, additional sources may added later on.
+- Currently limited to `/dev/urandom`, additional sources may be added later on.
 - Alphabet contains a convenience method for symbols, these may change.
 
