@@ -1,4 +1,4 @@
-[![CI Status](https://travis-ci.org/benjohnde/NanoidSwift.svg?branch=master)](https://travis-ci.org/benjohnde/NanoidSwift)
+[![CI Status](https://travis-ci.org/Preventis/NanoidSwift.svg?branch=master)](https://travis-ci.org/Preventis/NanoidSwift)
 [![Carthage Compatibility](https://img.shields.io/badge/carthage-✓-e2c245.svg)](https://github.com/Carthage/Carthage/)
 
 # NanoidSwift
@@ -21,7 +21,7 @@ print(nanoid.secureToken)
 Nanoid can be installed using [Carthage](https://github.com/Carthage/Carthage). After installing Carthage just add Nanoid to your Cartfile as follows:
 
 ```ruby
-github "benjohnde/NanoidSwift" ~> 0.1
+github "Preventis/NanoidSwift" ~> 0.1
 ```
 
 ### Hint
