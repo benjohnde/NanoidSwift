@@ -21,7 +21,7 @@ print(nanoid.secureToken)
 Nanoid can be installed using [Carthage](https://github.com/Carthage/Carthage). After installing Carthage just add Nanoid to your Cartfile as follows:
 
 ```ruby
-github "Preventis/NanoidSwift" ~> 0.1
+github "benjohnde/NanoidSwift" ~> 1.0
 ```
 
 ### Hint
