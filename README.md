@@ -1,6 +1,3 @@
-[![CI Status](https://travis-ci.org/Preventis/NanoidSwift.svg?branch=master)](https://travis-ci.org/Preventis/NanoidSwift)
-[![Carthage Compatibility](https://img.shields.io/badge/carthage-✓-e2c245.svg)](https://github.com/Carthage/Carthage/)
-
 # NanoidSwift
 
 Straight forward nanoid implementation for Swift.
