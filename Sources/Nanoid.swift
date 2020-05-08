@@ -9,11 +9,13 @@
 import Foundation
 
 public class Nanoid {
-    var randomizer: RandomSource = URandom()
-    var alphabet: Alphabet = .alphameric
-    var length = 32
+    public var randomizer: RandomSource = URandom()
+    public var alphabet: Alphabet = .alphameric
+    public var length = 32
 
-    var secureToken: String {
+    public init() {}
+    
+    public var secureToken: String {
         let randomBytes = randomizer.get(numBytes: length)
         let randomCharacters = randomBytes.map { byte -> Character in
             return self.alphabet.character(for: byte)
